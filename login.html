@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+       
+              <nav class="page__menu page__custom-settings menu">
+                <ul class="menu__list r-list">
+                  <li class="menu__group"><a href="./login.html" class="menu__link r-link text-underlined">Login</a></li>
+                  <li class="menu__group"><a href="./index.html" class="menu__link r-link text-underlined">Registro</a></li>
+                  <li class="menu__group"><a href="./tablaregistro.html" class="menu__link r-link text-underlined">Tabla de registro</a></li>
+                </ul>
+              </nav>
+            </div>
+
+    <div class="registration-form">
+        <form>
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+            <h1>login</h1>
+            <div class="form-group">
+                <input type="text" placeholder="Ingrese su Usuario" class="form-control" id="Nombre">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Ingrese su contraseña" class="form-control" id="Apellido">
+            </div>
+            
+            <button class="btn btn-outline-primary col-12 col-md-12 mx-auto" onclick="registrarUsuario()">Registrar</button>
+              <button class="btn btn-outline-success col-12 col-md-12 mx-auto" onclick="listarUsuarios()">Listar</button>
+        </form>
+        
+        <div class="social-media">
+            <h5>Sign up with social media</h5>
+            <div class="social-icons">
+                <a href="#"><i class="icon-social-facebook" title="Facebook"></i></a>
+                <a href="#"><i class="icon-social-google" title="Google"></i></a>
+                <a href="#"><i class="icon-social-twitter" title="Twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>KS</p>
+      </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
